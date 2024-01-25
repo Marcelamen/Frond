@@ -1,0 +1,54 @@
+.perfilCard {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 23px;
+    position: relative;
+}
+.perfilCard figure {
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    margin-right: 10px;
+    background-color: #ccc;
+    overflow: hidden;
+    position: relative;
+}
+.perfilCard figure img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.pencilIcon {
+    position: absolute;
+    top: 70%; 
+    right: 70%; 
+    transform: translate(20%, -40%) scale(0.40);    
+    background: #ffffff;
+    border-radius: 50%;
+    border: 2px solid #6187ad;
+    width: 50px;
+    height: 50px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }   
+  .perfilCard:hover .pencilIcon {
+    opacity: 1;
+  }
+
+.perfilDetails{flex: 1;}
+.perfilDetails h3 {
+    font-weight: 600;
+    font-size: 1rem;
+}
+.perfilDetails span {
+    font-size: .8rem;
+}
+.perfilDetails p{
+    font-size: .8rem;
+    text-transform: capitalize;
+}
+  

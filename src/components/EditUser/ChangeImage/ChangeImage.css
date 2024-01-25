@@ -1,0 +1,54 @@
+.ChangeImage {
+  text-align: center;
+  margin-top: 20px; /* Ajusta la distancia desde la parte superior */
+}
+
+.ChangeImage img {
+  max-width: 150px;
+  max-height: 150px;
+  border-radius: 50%;
+}
+
+.ChangeImage input[type="file"] {
+  display: none;
+}
+
+.ChangeImage label {
+  display: inline-block;
+  background: #5E72E4;
+  color: #fff;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.ChangeImage label input[type="file"] {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.ChangeImage button {
+  border: 2px solid #5E72E4;
+  color: #5b5c5f;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s ease;
+}
+
+.ChangeImage button:hover {
+  
+  background-color: #e0e9e3;
+  border: 2px solid #5E72E4;
+
+}
+.titulo{
+  color: #3498db;
+}
